@@ -32,7 +32,7 @@ export interface ILoginResponseDto {
   userInfo: IAuthUser;
 }
 
-export interface IAuthContext {
+export interface IAuthContextState {
   isAuthenticated: boolean;
   isAuthLoading: boolean;
   user?: IAuthUser;

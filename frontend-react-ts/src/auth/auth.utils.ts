@@ -1,7 +1,7 @@
 import { IAuthUser, RolesEnum } from "../types/auth.types";
 import axiosInstance from "../utils/axiosInstance";
 
-export const SetSession = (accessToken: string | null) => {
+export const setSession = (accessToken: string | null) => {
   if (accessToken) {
     localStorage.setItem("accessToken", accessToken);
     axiosInstance.defaults.headers.common.Authorization = `Bearer ${accessToken}`;
