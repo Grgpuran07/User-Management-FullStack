@@ -22,6 +22,7 @@ const Header = () => {
     }
     return "--";
   };
+  console.log("isAuthenticated ", isAuthenticated);
   return (
     <div className="flex justify-between items-center bg-[#f0ecf7] h-12 px-4">
       <div className="flex items-center gap-4">

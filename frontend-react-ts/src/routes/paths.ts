@@ -14,7 +14,7 @@ export const PATH_DASHBOARD = {
   inbox: "/dashboard/inbox",
   allMessages: "/dashboard/all-messages",
   systemLogs: "/dashboard/system-logs",
-  myLogs: "/dashboard/system-logs",
+  myLogs: "/dashboard/my-logs",
   owner: "/dashboard/owner",
   admin: "/dashboard/admin",
   manager: "/dashboard/manager",

@@ -39,7 +39,7 @@ const authReducer = (state: IAuthContextState, action: IAuthContextAction) => {
   if (action.type == IAuthContextActionTypes.LOGOUT) {
     return {
       ...state,
-      isAuthenticated: true,
+      isAuthenticated: false,
       isAuthLoading: false,
       user: undefined,
     };

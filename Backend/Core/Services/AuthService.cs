@@ -90,7 +90,7 @@ namespace Backend.Core.Services
                 return new GeneralServiceResponseDto()
                 {
                     IsSucceed = false,
-                    StatusCode = 200,
+                    StatusCode = 400,
                     Message = errorString
                 };
             }
